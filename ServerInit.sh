@@ -2,7 +2,7 @@
 mkdir /opt/enigmatica2
 mkdir /opt/enigmatica2/server
 echo "eula=true" > /opt/enigmatica2/server/eula.txt
-curl -L -o /tmp/enigmatica2.zip 'https://minecraft.curseforge.com/projects/enigmatica2/files/2657672/download'a.txt
+curl -L -o /tmp/enigmatica2.zip 'https://minecraft.curseforge.com/projects/enigmatica2/files/2657672/download'
 unzip /tmp/enigmatica2.zip -d /opt/enigmatica2/server
 curl -o /opt/enigmatica2/server/settings.cfg https://raw.githubusercontent.com/Johnley/MinecraftCloudConfigs/master/settings.cfg?token=AA8tCGRmrjkenOc-jNtUuXPUIzDt56LZks5cOUbEwA%3D%3D
 curl -o /opt/enigmatica2/server/ops.json https://raw.githubusercontent.com/Johnley/MinecraftCloudConfigs/master/ops.json?token=AA8tCCsonxqEMH31LmziEDLgu7m2TqEjks5cOUZfwA%3D%3D
